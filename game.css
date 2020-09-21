@@ -1,0 +1,122 @@
+.background    { background: url(images//floor.jpg)  no-repeat;
+    background-size: cover;
+    table-layout: fixed;
+    border-spacing: 0;              }
+.background td { padding: 0;                     }
+.wall{
+    
+    background: url(images/wall.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+.gate{  
+    background: url(images/wall.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+
+.bush{
+    background: url(images/bush.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+.player{
+    background: url(images/player.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+    
+}
+.game {
+    left:30%;
+    top: 30%;   
+    max-width: 660px;
+    max-height: 510px;
+    position: relative;
+}
+.monster{
+    background: url(images/monstr.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+    
+}
+body{
+    background: url(images/back.jpg) no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+}
+.left{
+    transform: scale(-1,1);
+}
+
+.key{
+    background: url(images/key.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+.actor{
+    position: absolute;    
+}
+.opengate{
+    background: url(images/gate.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Mblock{
+    background: url(images/Mblock.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+.torn{
+    background: url(images/torns.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+.spike{
+    background: url(images/spike.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+
+.cannon{
+    background: url(images/cannon.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+
+.bullet{
+    background: url(images/bullet.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+.life{
+    background: url(images/heart.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+.invul{
+    background: url(images/inval.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: contain; /* Масштабируем фон */
+}
+.hud{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+.invull{
+    opacity: 0.5;
+}
+.endgame{
+    width: 600px;
+    height: 450px;
+    color: red;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+    font-weight: 600;
+    margin:  0 auto;
+}
+.wingame{
+    width: 600px;
+    height: 450px;
+    color:blue;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+    font-weight: 600;
+    margin:  0 auto;
+}
+#info{
+    font-size: 20px;
+    color: cyan;
+}
